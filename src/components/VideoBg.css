@@ -1,0 +1,26 @@
+.videoBg {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.videoBg div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.videoBg div video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div .overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.479);
+}
