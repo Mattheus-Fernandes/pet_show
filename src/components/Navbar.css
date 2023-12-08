@@ -1,0 +1,41 @@
+:root {
+  --tealGreen: #167D7F;
+  --cerceta: #37bace;
+  --hortela: #98d7c2;
+}
+
+.header {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:var(--hortela);
+  color: var(--tealGreen);
+}
+
+.header .titlePage {
+  font-size: 2em;
+}
+
+.header .navBar {
+  width: 20%;
+}
+
+.header .navBar ul {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header .navBar ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 25px 10px;
+  font-size: 1.1em;
+}
+
+.header .navBar ul li:hover {
+  background-color: var(--cerceta);
+  border-radius: 3px;
+}
