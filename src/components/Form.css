@@ -1,0 +1,70 @@
+:root {
+  --tealGreen: #167D7F;
+  --cerceta: #37bace;
+  --hortela: #98d7c2;
+}
+
+.areaRegister {
+  height: 100vh;
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--tealGreen);
+  color: var(--hortela);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.areaRegister h1 {
+  font-size: 3em;
+}
+
+.areaRegister form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 20px;
+  width: 520px;
+  border: 1px solid var(--cerceta);
+  border-radius: 10px;
+}
+
+.areaRegister form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+.areaRegister form input, textarea {
+  height: 30px;
+  margin-top: 5px;
+  outline: none;
+  padding: 3px 6px;
+  border: none;
+  background-color: var(--hortela);
+  color: var(--tealGreen);
+  font-size: 0.8em;
+  
+}
+
+.areaRegister form button {
+  font-size: 1.2em;
+  margin-top: 31px;
+  width: 100%;
+  height: 6.8%;
+  border: none;
+  outline: none;
+  background-color: var(--cerceta);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.areaRegister form button:hover {
+  transition: .7s;
+  border: 1px solid var(--cerceta);
+  background-color: var(--tealGreen);
+}
