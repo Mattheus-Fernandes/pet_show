@@ -1,0 +1,34 @@
+:root {
+  --tealGreen: #167D7F;
+  --cerceta: #37bace;
+  --hortela: #98d7c2;
+}
+
+
+.areaPetsSaved main nav ul {
+  width: 300px;
+  background-color: var(--cerceta);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 4px inset var(--tealGreen);
+}
+
+.areaPetsSaved main nav ul li {
+  list-style: none;
+  margin-bottom: 5px;
+  background-color: #167d7f2d;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.areaPetsSaved main nav ul li .info {
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 2px;
+}
+
+.areaPetsSaved main nav ul li .data {
+  color: #98d7c2;
+}
