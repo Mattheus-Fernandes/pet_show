@@ -1,0 +1,30 @@
+:root {
+  --tealGreen: #167D7F;
+  --cerceta: #37bace;
+  --hortela: #98d7c2;
+}
+
+
+.content {
+  padding: 50px;
+  background-color: var(--hortela);
+  width: 100%;
+  max-height: auto;
+  min-height: 100vh;
+}
+
+.content main h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3em;
+  color: var(--tealGreen);
+}
+
+
+.areaCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto  ;
+}
