@@ -1,7 +1,18 @@
 {
   "pets": [
-    {"id": 1, "name": "Mattheus", "lastName": "Fernandes", "email": "mattheus.ale@yahoo.com", "cpf": "123.456.789.00" , "adress": "Rua Américo Lobo", "neighborhood": "Progresso", "city": "Juiz de Fora", "phoneNumber": "(XX) XXXXX-XXXX", "namePet": "Ken", "race": "Labrador", "description": "Sem Alergias"}
+    {
+      "name": "Mattheus",
+      "lastName": "Fernandes",
+      "email": "mattheus.ale@yahoo.com",
+      "cpf": "123.456.789.99",
+      "adress": "Rua Américo Lobo",
+      "neighborhood": "Progresso",
+      "city": "Juiz de Fora",
+      "phoneNumber": "(XX)XXXXX-XXXX",
+      "namePet": "Ken",
+      "race": "Labrador",
+      "description": "Nenhuma",
+      "id": 1
+    }
   ]
 }
-
-
