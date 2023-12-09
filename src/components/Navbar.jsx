@@ -26,8 +26,8 @@ const Navbar = () => {
         <span className="titlePage">PetShow</span>
         <nav className="navBar">
           <ul>
-            <li onClick={handleClickRegister}>Pets Cadastrados</li>
-            <li onClick={handleClickSaved}>Cadastrar Pet</li>
+            <li onClick={handleClickRegister}>Cadastrar Pet</li>
+            <li onClick={handleClickSaved}>Pets Cadastrados</li>
           </ul >
         </nav>
       </header>
