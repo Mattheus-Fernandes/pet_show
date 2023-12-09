@@ -6,8 +6,6 @@ const url = " http://localhost:3000/pets"
 
 const Form = () => {
   
-  const [pets, setPets] = useState([])
-
   const [name, setName] = useState()
   const [lastName, setLastName] = useState()
   const [email, setEmail] = useState()
@@ -35,7 +33,7 @@ const Form = () => {
       body: JSON.stringify(pet)
     })
 
-    
+
 
   }
 
