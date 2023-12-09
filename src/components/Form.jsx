@@ -1,10 +1,12 @@
 import "./Form.css"
 import { useState } from "react"
 
+
 const url = " http://localhost:3000/pets"
 
 const Form = () => {
-
+  
+  const [pets, setPets] = useState([])
 
   const [name, setName] = useState()
   const [lastName, setLastName] = useState()
@@ -19,6 +21,7 @@ const Form = () => {
   const [description, setDescription] = useState()
 
 
+
   const handleSubmit = async (e) => {
     e.preventDefault()
 
@@ -26,17 +29,21 @@ const Form = () => {
       name, lastName, email, cpf, adress, neighborhood, city, phoneNumber, namePet, race, description
     }
 
-    const res = await fetch(url, {
+   await fetch(url, {
       method: "POST",
       headers:{ "Content-type": "application/json"},
       body: JSON.stringify(pet)
     })
+
+    
+
   }
 
 
   return (
     <div className="areaRegister">
-        <h1>Área de Cadastro</h1>
+  
+      <h1>Área de Cadastro</h1>
       <form onSubmit={handleSubmit}>
         <div className="sideLeft">
           <label>
